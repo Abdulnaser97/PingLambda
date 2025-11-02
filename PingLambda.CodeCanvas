@@ -1,0 +1,1029 @@
+{
+	"drawioXML": "<mxfile>\n  <diagram id=\"IMF6HTteNrimy0h3f_o9\" name=\"Page-1\">\n    <mxGraphModel dx=\"3846\" dy=\"2146\" grid=\"0\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"0\" arrows=\"1\" fold=\"1\" page=\"0\" pageScale=\"1\" pageWidth=\"850\" pageHeight=\"1100\" math=\"0\" shadow=\"0\">\n      <root>\n        <mxCell id=\"0\" />\n        <mxCell id=\"1\" style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=9;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#fffefe\" parent=\"0\" />\n        <UserObject label=\"serverless.yml\" value=\"serverless.yml\" id=\"877df854-419a-4781-81d8-ca4ab321d7ee\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=31;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#fffefe\" parent=\"1\" vertex=\"1\">\n            <mxGeometry x=\"70\" y=\"139.14483585430023\" width=\"960\" height=\"360.85516414569975\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Define Service Configuration - serverless.yml:L1-8\" value=\"Define Service Configuration - serverless.yml:L1-8\" id=\"e44c8697-6df5-468f-8412-f8d05e26bbb9\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"877df854-419a-4781-81d8-ca4ab321d7ee\" vertex=\"1\">\n            <mxGeometry x=\"710\" y=\"200.85516414569975\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"IaC Flow: Service Definition - serverless.yml:L1-2\" value=\"IaC Flow: Service Definition - serverless.yml:L1-2\" id=\"c52e184a-e869-4e4d-b1ad-2c5316e64aeb\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"877df854-419a-4781-81d8-ca4ab321d7ee\" vertex=\"1\">\n            <mxGeometry x=\"70\" y=\"81.45065295408084\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"IaC Flow: Provider Configuration - serverless.yml:L4-7\" value=\"IaC Flow: Provider Configuration - serverless.yml:L4-7\" id=\"03418c8b-1ff2-4962-9aa0-b1c81b16d08a\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"877df854-419a-4781-81d8-ca4ab321d7ee\" vertex=\"1\">\n            <mxGeometry x=\"390\" y=\"81.45065295408084\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"IaC Flow: Function Definition - serverless.yml:L10-13\" value=\"IaC Flow: Function Definition - serverless.yml:L10-13\" id=\"71bbfc48-660c-4560-bfe0-dbdc38291064\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"877df854-419a-4781-81d8-ca4ab321d7ee\" vertex=\"1\">\n            <mxGeometry x=\"710\" y=\"70\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <mxCell id=\"d7541a70-1c97-4b76-acd3-749c3aec5b0a\" value=\"IaC Flow:&#xa;Service to&#xa;Provider Configuration\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"877df854-419a-4781-81d8-ca4ab321d7ee\" source=\"c52e184a-e869-4e4d-b1ad-2c5316e64aeb\" target=\"03418c8b-1ff2-4962-9aa0-b1c81b16d08a\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\" />\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"82862d97-35f6-48dd-a2c7-95540f7f8b93\" value=\"IaC Flow:&#xa;Provider to&#xa;Function Configuration\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"877df854-419a-4781-81d8-ca4ab321d7ee\" source=\"03418c8b-1ff2-4962-9aa0-b1c81b16d08a\" target=\"71bbfc48-660c-4560-bfe0-dbdc38291064\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"610\" y=\"126.45065295408084\" />\n              <mxPoint x=\"610\" y=\"115\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <UserObject label=\"src\" value=\"src\" id=\"7901d977-c186-40ca-a797-988ae450ae1d\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=25;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#fffefe\" parent=\"1\" vertex=\"1\">\n            <mxGeometry x=\"1220\" y=\"70\" width=\"510\" height=\"500\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"handler.js\" value=\"handler.js\" id=\"65eb451b-548d-4f6c-944e-cc9b8edabf3a\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=22;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#f9f3f3\" parent=\"7901d977-c186-40ca-a797-988ae450ae1d\" vertex=\"1\">\n            <mxGeometry x=\"95\" y=\"70\" width=\"320\" height=\"360\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Resolve and Package Handler Code - handler.js:L1\" value=\"Resolve and Package Handler Code - handler.js:L1\" id=\"f8a8031b-a020-4346-b63a-6e264293a32f\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"65eb451b-548d-4f6c-944e-cc9b8edabf3a\" vertex=\"1\">\n            <mxGeometry x=\"70\" y=\"200\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"IaC Flow: Target Application Code - handler.js:L1\" value=\"IaC Flow: Target Application Code - handler.js:L1\" id=\"95763276-55b7-4fa3-957b-573450aa569d\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"65eb451b-548d-4f6c-944e-cc9b8edabf3a\" vertex=\"1\">\n            <mxGeometry x=\"70\" y=\"70\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\".github\" value=\".github\" id=\"d133d8f1-1b38-41f8-8546-1ff69a2789b2\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=37;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#fffefe\" parent=\"1\" vertex=\"1\">\n            <mxGeometry x=\"1920\" y=\"129.99999999999997\" width=\"1290\" height=\"640.5984952534375\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"workflows\" value=\"workflows\" id=\"79f08672-c39f-4773-ab30-4426061858ad\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=34;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#f9f3f3\" parent=\"d133d8f1-1b38-41f8-8546-1ff69a2789b2\" vertex=\"1\">\n            <mxGeometry x=\"95\" y=\"70\" width=\"1125\" height=\"500.5984952534375\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"main.yml\" value=\"main.yml\" id=\"b56b3080-88ac-4fc9-84f4-98fbd89acf34\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=31;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#f4e9e9\" parent=\"79f08672-c39f-4773-ab30-4426061858ad\" vertex=\"1\">\n            <mxGeometry x=\"95\" y=\"70\" width=\"960\" height=\"360.5984952534375\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Deploy to AWS via CloudFormation - main.yml:L1-25\" value=\"Deploy to AWS via CloudFormation - main.yml:L1-25\" id=\"9fb7581a-9e16-4f3a-9d5a-27379c9ee2f5\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"b56b3080-88ac-4fc9-84f4-98fbd89acf34\" vertex=\"1\">\n            <mxGeometry x=\"70\" y=\"70\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"CI/CD Flow: Workflow Triggered by Push to Main Branch - main.yml:L4-6\" value=\"CI/CD Flow: Workflow Triggered by Push to Main Branch - main.yml:L4-6\" id=\"7c2c2af8-f4f3-49e1-84b3-4c2388f18d5a\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"b56b3080-88ac-4fc9-84f4-98fbd89acf34\" vertex=\"1\">\n            <mxGeometry x=\"70\" y=\"200.59849525343748\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"CI/CD Flow: Setup Node.js Environment - main.yml:L19-22\" value=\"CI/CD Flow: Setup Node.js Environment - main.yml:L19-22\" id=\"7ab273b9-870d-4108-8f62-b9b72ce62fff\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"b56b3080-88ac-4fc9-84f4-98fbd89acf34\" vertex=\"1\">\n            <mxGeometry x=\"390\" y=\"187.77744190161923\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"CI/CD Flow: Execute Serverless Deploy - main.yml:L24-30\" value=\"CI/CD Flow: Execute Serverless Deploy - main.yml:L24-30\" id=\"74573102-d310-4288-b4e7-47484433a39a\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"b56b3080-88ac-4fc9-84f4-98fbd89acf34\" vertex=\"1\">\n            <mxGeometry x=\"710\" y=\"187.77744190161923\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <mxCell id=\"3b3935f8-d71f-4ccd-91c2-237a6bb5df37\" value=\"CI/CD Flow:&#xa;Event Data&#xa;to Deploy&#xa;Job\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"b56b3080-88ac-4fc9-84f4-98fbd89acf34\" source=\"7c2c2af8-f4f3-49e1-84b3-4c2388f18d5a\" target=\"7ab273b9-870d-4108-8f62-b9b72ce62fff\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"290\" y=\"245.59849525343748\" />\n              <mxPoint x=\"290\" y=\"232.77744190161923\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"8262121a-6964-4479-ab5f-fffad831d811\" value=\"CI/CD Flow:&#xa;Pass AWS&#xa;Credentials to&#xa;Serverless Action\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"b56b3080-88ac-4fc9-84f4-98fbd89acf34\" source=\"7ab273b9-870d-4108-8f62-b9b72ce62fff\" target=\"74573102-d310-4288-b4e7-47484433a39a\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\" />\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"55e29172-4e22-4b98-9e31-262ff35125fd\" value=\"Transmit Function&#xa;Definition\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=12;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"1\" source=\"e44c8697-6df5-468f-8412-f8d05e26bbb9\" target=\"f8a8031b-a020-4346-b63a-6e264293a32f\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\" />\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"a8edb2e7-9788-47b3-b4ba-c22b90a404bc\" value=\"Prepare Deployment&#xa;Artifacts\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=10;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"1\" source=\"f8a8031b-a020-4346-b63a-6e264293a32f\" target=\"9fb7581a-9e16-4f3a-9d5a-27379c9ee2f5\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\" />\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"406f34bd-2c36-463c-bc10-7839ad959e0e\" value=\"IaC Flow:&#xa;Linking Configuration&#xa;to Code\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=14;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"1\" source=\"71bbfc48-660c-4560-bfe0-dbdc38291064\" target=\"95763276-55b7-4fa3-957b-573450aa569d\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"1095\" y=\"254.14483585430023\" />\n              <mxPoint x=\"1095\" y=\"255\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n      </root>\n    </mxGraphModel>\n  </diagram>\n</mxfile>\n",
+	"fileName": "PingLambda.CodeCanvas",
+	"fileURL": "github",
+	"diagramTemplateVersion": 0.2,
+	"filePath": "PingLambda.CodeCanvas",
+	"repoData": {
+		".github": {
+			"path": ".github",
+			"fileName": ".github",
+			"cellName": ".github",
+			"cellId": "d133d8f1-1b38-41f8-8546-1ff69a2789b2",
+			"visible": true,
+			"children": [
+				".github/workflows"
+			]
+		},
+		".github/workflows": {
+			"path": ".github/workflows",
+			"fileName": "workflows",
+			"cellName": "workflows",
+			"cellId": "79f08672-c39f-4773-ab30-4426061858ad",
+			"visible": true,
+			"parentCellId": "d133d8f1-1b38-41f8-8546-1ff69a2789b2",
+			"children": [
+				".github/workflows/main.yml"
+			]
+		},
+		".github/workflows/main.yml": {
+			"path": ".github/workflows/main.yml",
+			"fileName": "main.yml",
+			"cellName": "main.yml",
+			"cellId": "b56b3080-88ac-4fc9-84f4-98fbd89acf34",
+			"visible": true,
+			"parentCellId": "79f08672-c39f-4773-ab30-4426061858ad",
+			"children": [
+				".github/workflows/main.yml-simstep-33bd3a53-e2c0-4201-9731-d23579c5c2f3",
+				".github/workflows/main.yml-simstep-bc2b3a76-f2a7-4680-95c1-1ea05c4a4d04",
+				".github/workflows/main.yml-simstep-800e3d2f-a911-470f-b763-87b657cfe45f",
+				".github/workflows/main.yml-simstep-86dab1f7-5101-466e-b243-51c8f9d23505"
+			]
+		},
+		"serverless.yml": {
+			"path": "serverless.yml",
+			"fileName": "serverless.yml",
+			"cellName": "serverless.yml",
+			"cellId": "877df854-419a-4781-81d8-ca4ab321d7ee",
+			"visible": true,
+			"children": [
+				"serverless.yml-simstep-9ebf4db5-aabd-4d3e-b5e3-f72873bf00c0",
+				"serverless.yml-simstep-6cad9a92-5b9e-497b-b2fd-0e41a95663e4",
+				"serverless.yml-simstep-66cc21ed-40a2-4381-ba4e-e92178c1fe47",
+				"serverless.yml-simstep-1e9bf09e-c953-4050-999d-6942e061e873"
+			]
+		},
+		"src": {
+			"path": "src",
+			"fileName": "src",
+			"cellName": "src",
+			"cellId": "7901d977-c186-40ca-a797-988ae450ae1d",
+			"visible": true,
+			"children": [
+				"src/handler.js"
+			]
+		},
+		"src/handler.js": {
+			"path": "src/handler.js",
+			"fileName": "handler.js",
+			"cellName": "handler.js",
+			"cellId": "65eb451b-548d-4f6c-944e-cc9b8edabf3a",
+			"visible": true,
+			"parentCellId": "7901d977-c186-40ca-a797-988ae450ae1d",
+			"children": [
+				"src/handler.js-simstep-66396f61-d7b2-46e1-be72-84561c37a348",
+				"src/handler.js-simstep-2c68f18b-5ad8-4527-882d-9392bd315bb8"
+			]
+		},
+		"877df854-419a-4781-81d8-ca4ab321d7ee": {
+			"path": "877df854-419a-4781-81d8-ca4ab321d7ee",
+			"fileName": "877df854-419a-4781-81d8-ca4ab321d7ee",
+			"cellName": "serverless.yml",
+			"cellId": "877df854-419a-4781-81d8-ca4ab321d7ee",
+			"visible": true
+		},
+		"7901d977-c186-40ca-a797-988ae450ae1d": {
+			"path": "7901d977-c186-40ca-a797-988ae450ae1d",
+			"fileName": "7901d977-c186-40ca-a797-988ae450ae1d",
+			"cellName": "src",
+			"cellId": "7901d977-c186-40ca-a797-988ae450ae1d",
+			"visible": true
+		},
+		"d133d8f1-1b38-41f8-8546-1ff69a2789b2": {
+			"path": "d133d8f1-1b38-41f8-8546-1ff69a2789b2",
+			"fileName": "d133d8f1-1b38-41f8-8546-1ff69a2789b2",
+			"cellName": ".github",
+			"cellId": "d133d8f1-1b38-41f8-8546-1ff69a2789b2",
+			"visible": true
+		},
+		"65eb451b-548d-4f6c-944e-cc9b8edabf3a": {
+			"path": "65eb451b-548d-4f6c-944e-cc9b8edabf3a",
+			"fileName": "65eb451b-548d-4f6c-944e-cc9b8edabf3a",
+			"cellName": "handler.js",
+			"cellId": "65eb451b-548d-4f6c-944e-cc9b8edabf3a",
+			"visible": true,
+			"parentCellId": "7901d977-c186-40ca-a797-988ae450ae1d"
+		},
+		"79f08672-c39f-4773-ab30-4426061858ad": {
+			"path": "79f08672-c39f-4773-ab30-4426061858ad",
+			"fileName": "79f08672-c39f-4773-ab30-4426061858ad",
+			"cellName": "workflows",
+			"cellId": "79f08672-c39f-4773-ab30-4426061858ad",
+			"visible": true,
+			"parentCellId": "d133d8f1-1b38-41f8-8546-1ff69a2789b2"
+		},
+		"b56b3080-88ac-4fc9-84f4-98fbd89acf34": {
+			"path": "b56b3080-88ac-4fc9-84f4-98fbd89acf34",
+			"fileName": "b56b3080-88ac-4fc9-84f4-98fbd89acf34",
+			"cellName": "main.yml",
+			"cellId": "b56b3080-88ac-4fc9-84f4-98fbd89acf34",
+			"visible": true,
+			"parentCellId": "79f08672-c39f-4773-ab30-4426061858ad"
+		},
+		"e44c8697-6df5-468f-8412-f8d05e26bbb9": {
+			"path": "e44c8697-6df5-468f-8412-f8d05e26bbb9",
+			"fileName": "e44c8697-6df5-468f-8412-f8d05e26bbb9",
+			"cellName": "Define Service Configuration - serverless.yml:L1-8",
+			"cellId": "e44c8697-6df5-468f-8412-f8d05e26bbb9",
+			"visible": true,
+			"parentCellId": "877df854-419a-4781-81d8-ca4ab321d7ee"
+		},
+		"serverless.yml-simstep-9ebf4db5-aabd-4d3e-b5e3-f72873bf00c0": {
+			"path": "serverless.yml-simstep-9ebf4db5-aabd-4d3e-b5e3-f72873bf00c0",
+			"fileName": "serverless.yml",
+			"wiki": "The process starts with the Serverless Framework parsing the `serverless.yml` file. This file defines the service name ('basic-serverless-lambda'), the cloud provider (AWS), and the default configuration like runtime, stage, and region for all functions in the service.",
+			"cellName": "Define Service Configuration - serverless.yml:L1-8",
+			"cellId": "e44c8697-6df5-468f-8412-f8d05e26bbb9",
+			"visible": true,
+			"startLine": 1,
+			"endLine": 8,
+			"parentCellId": "877df854-419a-4781-81d8-ca4ab321d7ee",
+			"parentPath": "serverless.yml",
+			"simSteps": [
+				{
+					"simulationKey": "Deploy a Serverless API Endpoint on AWS Lambda",
+					"simStepId": "9ebf4db5-aabd-4d3e-b5e3-f72873bf00c0"
+				}
+			]
+		},
+		"f8a8031b-a020-4346-b63a-6e264293a32f": {
+			"path": "f8a8031b-a020-4346-b63a-6e264293a32f",
+			"fileName": "f8a8031b-a020-4346-b63a-6e264293a32f",
+			"cellName": "Resolve and Package Handler Code - handler.js:L1",
+			"cellId": "f8a8031b-a020-4346-b63a-6e264293a32f",
+			"visible": true,
+			"parentCellId": "65eb451b-548d-4f6c-944e-cc9b8edabf3a"
+		},
+		"src/handler.js-simstep-66396f61-d7b2-46e1-be72-84561c37a348": {
+			"path": "src/handler.js-simstep-66396f61-d7b2-46e1-be72-84561c37a348",
+			"fileName": "handler.js",
+			"wiki": "Using the 'src/handler.generateRandomNumber' path from the configuration, the Serverless Framework locates the `generateRandomNumber` export within the `src/handler.js` file. It then packages this file and its dependencies into a deployment artifact (a .zip file).",
+			"cellName": "Resolve and Package Handler Code - handler.js:L1",
+			"cellId": "f8a8031b-a020-4346-b63a-6e264293a32f",
+			"visible": true,
+			"startLine": 1,
+			"endLine": 1,
+			"parentCellId": "65eb451b-548d-4f6c-944e-cc9b8edabf3a",
+			"parentPath": "src/handler.js",
+			"simSteps": [
+				{
+					"simulationKey": "Deploy a Serverless API Endpoint on AWS Lambda",
+					"simStepId": "66396f61-d7b2-46e1-be72-84561c37a348"
+				}
+			]
+		},
+		"9fb7581a-9e16-4f3a-9d5a-27379c9ee2f5": {
+			"path": "9fb7581a-9e16-4f3a-9d5a-27379c9ee2f5",
+			"fileName": "9fb7581a-9e16-4f3a-9d5a-27379c9ee2f5",
+			"cellName": "Deploy to AWS via CloudFormation - main.yml:L1-25",
+			"cellId": "9fb7581a-9e16-4f3a-9d5a-27379c9ee2f5",
+			"visible": true,
+			"parentCellId": "b56b3080-88ac-4fc9-84f4-98fbd89acf34"
+		},
+		".github/workflows/main.yml-simstep-33bd3a53-e2c0-4201-9731-d23579c5c2f3": {
+			"path": ".github/workflows/main.yml-simstep-33bd3a53-e2c0-4201-9731-d23579c5c2f3",
+			"fileName": "main.yml",
+			"wiki": "The `serverless deploy` command, often run in a CI/CD pipeline like GitHub Actions, uploads the deployment package to an S3 bucket. It then creates or updates an AWS CloudFormation stack, which provisions the 'hello' Lambda function according to the specifications in the template.",
+			"cellName": "Deploy to AWS via CloudFormation - main.yml:L1-25",
+			"cellId": "9fb7581a-9e16-4f3a-9d5a-27379c9ee2f5",
+			"visible": true,
+			"startLine": 1,
+			"endLine": 25,
+			"parentCellId": "b56b3080-88ac-4fc9-84f4-98fbd89acf34",
+			"parentPath": ".github/workflows/main.yml",
+			"simSteps": [
+				{
+					"simulationKey": "Deploy a Serverless API Endpoint on AWS Lambda",
+					"simStepId": "33bd3a53-e2c0-4201-9731-d23579c5c2f3"
+				}
+			]
+		},
+		"55e29172-4e22-4b98-9e31-262ff35125fd": {
+			"path": "55e29172-4e22-4b98-9e31-262ff35125fd",
+			"fileName": "55e29172-4e22-4b98-9e31-262ff35125fd",
+			"cellName": "Transmit Function\nDefinition",
+			"cellId": "55e29172-4e22-4b98-9e31-262ff35125fd",
+			"visible": true
+		},
+		"generated-edge-simstep-1d66d1da-06e4-4e9f-b9ef-be7c769c2187-55e29172-4e22-4b98-9e31-262ff35125fd": {
+			"path": "generated-edge-simstep-1d66d1da-06e4-4e9f-b9ef-be7c769c2187-55e29172-4e22-4b98-9e31-262ff35125fd",
+			"fileName": "serverless.yml",
+			"cellName": "Transmit Function Definition",
+			"cellId": "55e29172-4e22-4b98-9e31-262ff35125fd",
+			"visible": true,
+			"startLine": 10,
+			"endLine": 14,
+			"parentPath": "serverless.yml",
+			"simSteps": [
+				{
+					"simulationKey": "Deploy a Serverless API Endpoint on AWS Lambda",
+					"simStepId": "1d66d1da-06e4-4e9f-b9ef-be7c769c2187"
+				}
+			]
+		},
+		"a8edb2e7-9788-47b3-b4ba-c22b90a404bc": {
+			"path": "a8edb2e7-9788-47b3-b4ba-c22b90a404bc",
+			"fileName": "a8edb2e7-9788-47b3-b4ba-c22b90a404bc",
+			"cellName": "Prepare Deployment\nArtifacts",
+			"cellId": "a8edb2e7-9788-47b3-b4ba-c22b90a404bc",
+			"visible": true
+		},
+		"generated-edge-simstep-ea0a12fa-4264-41c1-8873-cbd40cd95051-a8edb2e7-9788-47b3-b4ba-c22b90a404bc": {
+			"path": "generated-edge-simstep-ea0a12fa-4264-41c1-8873-cbd40cd95051-a8edb2e7-9788-47b3-b4ba-c22b90a404bc",
+			"fileName": "handler.js",
+			"cellName": "Prepare Deployment Artifacts",
+			"cellId": "a8edb2e7-9788-47b3-b4ba-c22b90a404bc",
+			"visible": true,
+			"startLine": 1,
+			"endLine": 25,
+			"parentPath": "src/handler.js",
+			"simSteps": [
+				{
+					"simulationKey": "Deploy a Serverless API Endpoint on AWS Lambda",
+					"simStepId": "ea0a12fa-4264-41c1-8873-cbd40cd95051"
+				}
+			]
+		},
+		"7c2c2af8-f4f3-49e1-84b3-4c2388f18d5a": {
+			"path": "7c2c2af8-f4f3-49e1-84b3-4c2388f18d5a",
+			"fileName": "7c2c2af8-f4f3-49e1-84b3-4c2388f18d5a",
+			"cellName": "CI/CD Flow: Workflow Triggered by Push to Main Branch - main.yml:L4-6",
+			"cellId": "7c2c2af8-f4f3-49e1-84b3-4c2388f18d5a",
+			"visible": true,
+			"parentCellId": "b56b3080-88ac-4fc9-84f4-98fbd89acf34"
+		},
+		".github/workflows/main.yml-simstep-bc2b3a76-f2a7-4680-95c1-1ea05c4a4d04": {
+			"path": ".github/workflows/main.yml-simstep-bc2b3a76-f2a7-4680-95c1-1ea05c4a4d04",
+			"fileName": "main.yml",
+			"wiki": "The CI/CD pipeline is automatically initiated when a `git push` event occurs on the `main` branch of the GitHub repository. This is the starting point of the automated deployment process.",
+			"cellName": "CI/CD Flow: Workflow Triggered by Push to Main Branch - main.yml:L4-6",
+			"cellId": "7c2c2af8-f4f3-49e1-84b3-4c2388f18d5a",
+			"visible": true,
+			"startLine": 4,
+			"endLine": 6,
+			"parentCellId": "b56b3080-88ac-4fc9-84f4-98fbd89acf34",
+			"parentPath": ".github/workflows/main.yml",
+			"simSteps": [
+				{
+					"simulationKey": "Automate Cloud Deployments with a CI/CD Pipeline",
+					"simStepId": "bc2b3a76-f2a7-4680-95c1-1ea05c4a4d04"
+				}
+			]
+		},
+		"7ab273b9-870d-4108-8f62-b9b72ce62fff": {
+			"path": "7ab273b9-870d-4108-8f62-b9b72ce62fff",
+			"fileName": "7ab273b9-870d-4108-8f62-b9b72ce62fff",
+			"cellName": "CI/CD Flow: Setup Node.js Environment - main.yml:L19-22",
+			"cellId": "7ab273b9-870d-4108-8f62-b9b72ce62fff",
+			"visible": true,
+			"parentCellId": "b56b3080-88ac-4fc9-84f4-98fbd89acf34"
+		},
+		".github/workflows/main.yml-simstep-800e3d2f-a911-470f-b763-87b657cfe45f": {
+			"path": ".github/workflows/main.yml-simstep-800e3d2f-a911-470f-b763-87b657cfe45f",
+			"fileName": "main.yml",
+			"wiki": "The 'deploy' job begins execution on an Ubuntu runner. The first step within the job is to use the `actions/setup-node` action to install and configure the specified Node.js version (18.x) required for the deployment.",
+			"cellName": "CI/CD Flow: Setup Node.js Environment - main.yml:L19-22",
+			"cellId": "7ab273b9-870d-4108-8f62-b9b72ce62fff",
+			"visible": true,
+			"startLine": 19,
+			"endLine": 22,
+			"parentCellId": "b56b3080-88ac-4fc9-84f4-98fbd89acf34",
+			"parentPath": ".github/workflows/main.yml",
+			"simSteps": [
+				{
+					"simulationKey": "Automate Cloud Deployments with a CI/CD Pipeline",
+					"simStepId": "800e3d2f-a911-470f-b763-87b657cfe45f"
+				}
+			]
+		},
+		"74573102-d310-4288-b4e7-47484433a39a": {
+			"path": "74573102-d310-4288-b4e7-47484433a39a",
+			"fileName": "74573102-d310-4288-b4e7-47484433a39a",
+			"cellName": "CI/CD Flow: Execute Serverless Deploy - main.yml:L24-30",
+			"cellId": "74573102-d310-4288-b4e7-47484433a39a",
+			"visible": true,
+			"parentCellId": "b56b3080-88ac-4fc9-84f4-98fbd89acf34"
+		},
+		".github/workflows/main.yml-simstep-86dab1f7-5101-466e-b243-51c8f9d23505": {
+			"path": ".github/workflows/main.yml-simstep-86dab1f7-5101-466e-b243-51c8f9d23505",
+			"fileName": "main.yml",
+			"wiki": "The `serverless/github-action` is executed with the `deploy` argument. This action uses the provided AWS credentials to authenticate with AWS, then packages the Lambda function defined in `serverless.yml` and `src/handler.js`, and deploys it to the AWS account.",
+			"cellName": "CI/CD Flow: Execute Serverless Deploy - main.yml:L24-30",
+			"cellId": "74573102-d310-4288-b4e7-47484433a39a",
+			"visible": true,
+			"startLine": 24,
+			"endLine": 30,
+			"parentCellId": "b56b3080-88ac-4fc9-84f4-98fbd89acf34",
+			"parentPath": ".github/workflows/main.yml",
+			"simSteps": [
+				{
+					"simulationKey": "Automate Cloud Deployments with a CI/CD Pipeline",
+					"simStepId": "86dab1f7-5101-466e-b243-51c8f9d23505"
+				}
+			]
+		},
+		"3b3935f8-d71f-4ccd-91c2-237a6bb5df37": {
+			"path": "3b3935f8-d71f-4ccd-91c2-237a6bb5df37",
+			"fileName": "3b3935f8-d71f-4ccd-91c2-237a6bb5df37",
+			"cellName": "CI/CD Flow:\nEvent Data\nto Deploy\nJob",
+			"cellId": "3b3935f8-d71f-4ccd-91c2-237a6bb5df37",
+			"visible": true,
+			"parentCellId": "b56b3080-88ac-4fc9-84f4-98fbd89acf34"
+		},
+		"generated-edge-simstep-1c32a872-5f46-4230-8302-28c42104482c-3b3935f8-d71f-4ccd-91c2-237a6bb5df37": {
+			"path": "generated-edge-simstep-1c32a872-5f46-4230-8302-28c42104482c-3b3935f8-d71f-4ccd-91c2-237a6bb5df37",
+			"fileName": "main.yml",
+			"cellName": "CI/CD Flow: Event Data to Deploy Job",
+			"cellId": "3b3935f8-d71f-4ccd-91c2-237a6bb5df37",
+			"visible": true,
+			"startLine": 8,
+			"endLine": 9,
+			"parentPath": ".github/workflows/main.yml",
+			"simSteps": [
+				{
+					"simulationKey": "Automate Cloud Deployments with a CI/CD Pipeline",
+					"simStepId": "1c32a872-5f46-4230-8302-28c42104482c"
+				}
+			]
+		},
+		"8262121a-6964-4479-ab5f-fffad831d811": {
+			"path": "8262121a-6964-4479-ab5f-fffad831d811",
+			"fileName": "8262121a-6964-4479-ab5f-fffad831d811",
+			"cellName": "CI/CD Flow:\nPass AWS\nCredentials to\nServerless Action",
+			"cellId": "8262121a-6964-4479-ab5f-fffad831d811",
+			"visible": true,
+			"parentCellId": "b56b3080-88ac-4fc9-84f4-98fbd89acf34"
+		},
+		"generated-edge-simstep-7af03874-6033-4f46-91eb-22d13a79bc3a-8262121a-6964-4479-ab5f-fffad831d811": {
+			"path": "generated-edge-simstep-7af03874-6033-4f46-91eb-22d13a79bc3a-8262121a-6964-4479-ab5f-fffad831d811",
+			"fileName": "main.yml",
+			"cellName": "CI/CD Flow: Pass AWS Credentials to Serverless Action",
+			"cellId": "8262121a-6964-4479-ab5f-fffad831d811",
+			"visible": true,
+			"startLine": 27,
+			"endLine": 30,
+			"parentPath": ".github/workflows/main.yml",
+			"simSteps": [
+				{
+					"simulationKey": "Automate Cloud Deployments with a CI/CD Pipeline",
+					"simStepId": "7af03874-6033-4f46-91eb-22d13a79bc3a"
+				}
+			]
+		},
+		"c52e184a-e869-4e4d-b1ad-2c5316e64aeb": {
+			"path": "c52e184a-e869-4e4d-b1ad-2c5316e64aeb",
+			"fileName": "c52e184a-e869-4e4d-b1ad-2c5316e64aeb",
+			"cellName": "IaC Flow: Service Definition - serverless.yml:L1-2",
+			"cellId": "c52e184a-e869-4e4d-b1ad-2c5316e64aeb",
+			"visible": true,
+			"parentCellId": "877df854-419a-4781-81d8-ca4ab321d7ee"
+		},
+		"serverless.yml-simstep-6cad9a92-5b9e-497b-b2fd-0e41a95663e4": {
+			"path": "serverless.yml-simstep-6cad9a92-5b9e-497b-b2fd-0e41a95663e4",
+			"fileName": "serverless.yml",
+			"wiki": "The Infrastructure as Code (IaC) process begins with the `serverless.yml` file. The top-level `service` key defines the application's name, which the Serverless Framework uses to group all related cloud resources into a single stack.",
+			"cellName": "IaC Flow: Service Definition - serverless.yml:L1-2",
+			"cellId": "c52e184a-e869-4e4d-b1ad-2c5316e64aeb",
+			"visible": true,
+			"startLine": 1,
+			"endLine": 2,
+			"parentCellId": "877df854-419a-4781-81d8-ca4ab321d7ee",
+			"parentPath": "serverless.yml",
+			"simSteps": [
+				{
+					"simulationKey": "Manage Cloud Infrastructure as Code (IaC)",
+					"simStepId": "6cad9a92-5b9e-497b-b2fd-0e41a95663e4"
+				}
+			]
+		},
+		"03418c8b-1ff2-4962-9aa0-b1c81b16d08a": {
+			"path": "03418c8b-1ff2-4962-9aa0-b1c81b16d08a",
+			"fileName": "03418c8b-1ff2-4962-9aa0-b1c81b16d08a",
+			"cellName": "IaC Flow: Provider Configuration - serverless.yml:L4-7",
+			"cellId": "03418c8b-1ff2-4962-9aa0-b1c81b16d08a",
+			"visible": true,
+			"parentCellId": "877df854-419a-4781-81d8-ca4ab321d7ee"
+		},
+		"serverless.yml-simstep-66cc21ed-40a2-4381-ba4e-e92178c1fe47": {
+			"path": "serverless.yml-simstep-66cc21ed-40a2-4381-ba4e-e92178c1fe47",
+			"fileName": "serverless.yml",
+			"wiki": "The `provider` block specifies the cloud platform and default settings. It configures the service to use Amazon Web Services (AWS) with a Node.js 18.x runtime, deploying to the `dev` stage in the `us-west-1` region. These settings apply to all functions within the service unless overridden.",
+			"cellName": "IaC Flow: Provider Configuration - serverless.yml:L4-7",
+			"cellId": "03418c8b-1ff2-4962-9aa0-b1c81b16d08a",
+			"visible": true,
+			"startLine": 4,
+			"endLine": 7,
+			"parentCellId": "877df854-419a-4781-81d8-ca4ab321d7ee",
+			"parentPath": "serverless.yml",
+			"simSteps": [
+				{
+					"simulationKey": "Manage Cloud Infrastructure as Code (IaC)",
+					"simStepId": "66cc21ed-40a2-4381-ba4e-e92178c1fe47"
+				}
+			]
+		},
+		"71bbfc48-660c-4560-bfe0-dbdc38291064": {
+			"path": "71bbfc48-660c-4560-bfe0-dbdc38291064",
+			"fileName": "71bbfc48-660c-4560-bfe0-dbdc38291064",
+			"cellName": "IaC Flow: Function Definition - serverless.yml:L10-13",
+			"cellId": "71bbfc48-660c-4560-bfe0-dbdc38291064",
+			"visible": true,
+			"parentCellId": "877df854-419a-4781-81d8-ca4ab321d7ee"
+		},
+		"serverless.yml-simstep-1e9bf09e-c953-4050-999d-6942e061e873": {
+			"path": "serverless.yml-simstep-1e9bf09e-c953-4050-999d-6942e061e873",
+			"fileName": "serverless.yml",
+			"wiki": "A specific cloud function, named `hello`, is defined. This block specifies the function's properties, including the `handler` which points to the code to be executed (`src/handler.generateRandomNumber`), a `timeout` of 60 seconds, and a `memorySize` of 128 MB. This declarative configuration is used to provision an AWS Lambda resource.",
+			"cellName": "IaC Flow: Function Definition - serverless.yml:L10-13",
+			"cellId": "71bbfc48-660c-4560-bfe0-dbdc38291064",
+			"visible": true,
+			"startLine": 10,
+			"endLine": 13,
+			"parentCellId": "877df854-419a-4781-81d8-ca4ab321d7ee",
+			"parentPath": "serverless.yml",
+			"simSteps": [
+				{
+					"simulationKey": "Manage Cloud Infrastructure as Code (IaC)",
+					"simStepId": "1e9bf09e-c953-4050-999d-6942e061e873"
+				}
+			]
+		},
+		"95763276-55b7-4fa3-957b-573450aa569d": {
+			"path": "95763276-55b7-4fa3-957b-573450aa569d",
+			"fileName": "95763276-55b7-4fa3-957b-573450aa569d",
+			"cellName": "IaC Flow: Target Application Code - handler.js:L1",
+			"cellId": "95763276-55b7-4fa3-957b-573450aa569d",
+			"visible": true,
+			"parentCellId": "65eb451b-548d-4f6c-944e-cc9b8edabf3a"
+		},
+		"src/handler.js-simstep-2c68f18b-5ad8-4527-882d-9392bd315bb8": {
+			"path": "src/handler.js-simstep-2c68f18b-5ad8-4527-882d-9392bd315bb8",
+			"fileName": "handler.js",
+			"wiki": "The `handler` path resolves to the `generateRandomNumber` function exported from the `src/handler.js` file. This file contains the application logic that will be packaged and deployed to AWS Lambda, ready to be executed when the `hello` function is invoked.",
+			"cellName": "IaC Flow: Target Application Code - handler.js:L1",
+			"cellId": "95763276-55b7-4fa3-957b-573450aa569d",
+			"visible": true,
+			"startLine": 1,
+			"endLine": 1,
+			"parentCellId": "65eb451b-548d-4f6c-944e-cc9b8edabf3a",
+			"parentPath": "src/handler.js",
+			"simSteps": [
+				{
+					"simulationKey": "Manage Cloud Infrastructure as Code (IaC)",
+					"simStepId": "2c68f18b-5ad8-4527-882d-9392bd315bb8"
+				}
+			]
+		},
+		"d7541a70-1c97-4b76-acd3-749c3aec5b0a": {
+			"path": "d7541a70-1c97-4b76-acd3-749c3aec5b0a",
+			"fileName": "d7541a70-1c97-4b76-acd3-749c3aec5b0a",
+			"cellName": "IaC Flow:\nService to\nProvider Configuration",
+			"cellId": "d7541a70-1c97-4b76-acd3-749c3aec5b0a",
+			"visible": true,
+			"parentCellId": "877df854-419a-4781-81d8-ca4ab321d7ee"
+		},
+		"generated-edge-simstep-e3665015-1825-4188-bae8-4655579b0ec0-d7541a70-1c97-4b76-acd3-749c3aec5b0a": {
+			"path": "generated-edge-simstep-e3665015-1825-4188-bae8-4655579b0ec0-d7541a70-1c97-4b76-acd3-749c3aec5b0a",
+			"fileName": "serverless.yml",
+			"cellName": "IaC Flow: Service to Provider Configuration",
+			"cellId": "d7541a70-1c97-4b76-acd3-749c3aec5b0a",
+			"visible": true,
+			"startLine": 3,
+			"endLine": 3,
+			"parentPath": "serverless.yml",
+			"simSteps": [
+				{
+					"simulationKey": "Manage Cloud Infrastructure as Code (IaC)",
+					"simStepId": "e3665015-1825-4188-bae8-4655579b0ec0"
+				}
+			]
+		},
+		"82862d97-35f6-48dd-a2c7-95540f7f8b93": {
+			"path": "82862d97-35f6-48dd-a2c7-95540f7f8b93",
+			"fileName": "82862d97-35f6-48dd-a2c7-95540f7f8b93",
+			"cellName": "IaC Flow:\nProvider to\nFunction Configuration",
+			"cellId": "82862d97-35f6-48dd-a2c7-95540f7f8b93",
+			"visible": true,
+			"parentCellId": "877df854-419a-4781-81d8-ca4ab321d7ee"
+		},
+		"generated-edge-simstep-245f988a-5eba-4cfa-8074-a2a7a7e28dc3-82862d97-35f6-48dd-a2c7-95540f7f8b93": {
+			"path": "generated-edge-simstep-245f988a-5eba-4cfa-8074-a2a7a7e28dc3-82862d97-35f6-48dd-a2c7-95540f7f8b93",
+			"fileName": "serverless.yml",
+			"cellName": "IaC Flow: Provider to Function Configuration",
+			"cellId": "82862d97-35f6-48dd-a2c7-95540f7f8b93",
+			"visible": true,
+			"startLine": 9,
+			"endLine": 9,
+			"parentPath": "serverless.yml",
+			"simSteps": [
+				{
+					"simulationKey": "Manage Cloud Infrastructure as Code (IaC)",
+					"simStepId": "245f988a-5eba-4cfa-8074-a2a7a7e28dc3"
+				}
+			]
+		},
+		"406f34bd-2c36-463c-bc10-7839ad959e0e": {
+			"path": "406f34bd-2c36-463c-bc10-7839ad959e0e",
+			"fileName": "406f34bd-2c36-463c-bc10-7839ad959e0e",
+			"cellName": "IaC Flow:\nLinking Configuration\nto Code",
+			"cellId": "406f34bd-2c36-463c-bc10-7839ad959e0e",
+			"visible": true
+		},
+		"generated-edge-simstep-e7c093c5-c9e4-47d2-8942-616b888ba71d-406f34bd-2c36-463c-bc10-7839ad959e0e": {
+			"path": "generated-edge-simstep-e7c093c5-c9e4-47d2-8942-616b888ba71d-406f34bd-2c36-463c-bc10-7839ad959e0e",
+			"fileName": "serverless.yml",
+			"cellName": "IaC Flow: Linking Configuration to Code",
+			"cellId": "406f34bd-2c36-463c-bc10-7839ad959e0e",
+			"visible": true,
+			"startLine": 11,
+			"endLine": 11,
+			"parentPath": "serverless.yml",
+			"simSteps": [
+				{
+					"simulationKey": "Manage Cloud Infrastructure as Code (IaC)",
+					"simStepId": "e7c093c5-c9e4-47d2-8942-616b888ba71d"
+				}
+			]
+		}
+	},
+	"simulations": {
+		"Deploy a Serverless API Endpoint on AWS Lambda": {
+			"name": "Deploy a Serverless API Endpoint on AWS Lambda",
+			"simSteps": [
+				{
+					"simStepId": "9ebf4db5-aabd-4d3e-b5e3-f72873bf00c0",
+					"diagramNodeId": "e44c8697-6df5-468f-8412-f8d05e26bbb9",
+					"simStepLabel": "Define Service Configuration",
+					"simStepDescription": "The process starts with the Serverless Framework parsing the `serverless.yml` file. This file defines the service name ('basic-serverless-lambda'), the cloud provider (AWS), and the default configuration like runtime, stage, and region for all functions in the service.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "serverless.yml",
+						"startLine": "1",
+						"endLine": "8",
+						"relevantVariables": [
+							"service",
+							"provider",
+							"name",
+							"runtime",
+							"stage",
+							"region"
+						]
+					},
+					"inputDataExample": "{}",
+					"outputDataExample": "{\"service\": \"basic-serverless-lambda\", \"provider\": {\"name\": \"aws\", \"runtime\": \"nodejs18.x\", \"stage\": \"dev\", \"region\": \"us-west-1\"}}"
+				},
+				{
+					"simStepId": "1d66d1da-06e4-4e9f-b9ef-be7c769c2187",
+					"diagramNodeId": "55e29172-4e22-4b98-9e31-262ff35125fd",
+					"simStepLabel": "Transmit Function Definition",
+					"simStepDescription": "The framework reads the `functions` block from the configuration. This object, which maps the function name 'hello' to its code handler and specific properties like timeout and memory, is passed to the packaging and deployment module.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "serverless.yml",
+						"startLine": "10",
+						"endLine": "14",
+						"relevantVariables": [
+							"functions",
+							"hello",
+							"handler",
+							"timeout",
+							"memorySize"
+						]
+					},
+					"inputDataExample": "{\"functions\": {\"hello\": {\"handler\": \"src/handler.generateRandomNumber\", \"timeout\": 60, \"memorySize\": 128}}}",
+					"outputDataExample": "{\"functions\": {\"hello\": {\"handler\": \"src/handler.generateRandomNumber\", \"timeout\": 60, \"memorySize\": 128}}}"
+				},
+				{
+					"simStepId": "66396f61-d7b2-46e1-be72-84561c37a348",
+					"diagramNodeId": "f8a8031b-a020-4346-b63a-6e264293a32f",
+					"simStepLabel": "Resolve and Package Handler Code",
+					"simStepDescription": "Using the 'src/handler.generateRandomNumber' path from the configuration, the Serverless Framework locates the `generateRandomNumber` export within the `src/handler.js` file. It then packages this file and its dependencies into a deployment artifact (a .zip file).",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "src/handler.js",
+						"startLine": "1",
+						"endLine": "1",
+						"relevantVariables": [
+							"generateRandomNumber"
+						]
+					},
+					"inputDataExample": "{\"handlerPath\": \"src/handler.generateRandomNumber\"}",
+					"outputDataExample": "{\"deploymentPackagePath\": \".serverless/basic-serverless-lambda.zip\"}"
+				},
+				{
+					"simStepId": "ea0a12fa-4264-41c1-8873-cbd40cd95051",
+					"diagramNodeId": "a8edb2e7-9788-47b3-b4ba-c22b90a404bc",
+					"simStepLabel": "Prepare Deployment Artifacts",
+					"simStepDescription": "The generated code package (.zip file) and a dynamically created AWS CloudFormation template are prepared for deployment. These artifacts contain all the necessary information to create the Lambda function on AWS.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": ".github/workflows/main.yml",
+						"startLine": "1",
+						"endLine": "25",
+						"relevantVariables": [
+							"serverless deploy"
+						]
+					},
+					"inputDataExample": "{\"deploymentPackage\": \".serverless/basic-serverless-lambda.zip\", \"cloudFormationTemplate\": \"cloudformation-template-update-stack.json\"}",
+					"outputDataExample": "{\"deploymentPackage\": \".serverless/basic-serverless-lambda.zip\", \"cloudFormationTemplate\": \"cloudformation-template-update-stack.json\"}"
+				},
+				{
+					"simStepId": "33bd3a53-e2c0-4201-9731-d23579c5c2f3",
+					"diagramNodeId": "9fb7581a-9e16-4f3a-9d5a-27379c9ee2f5",
+					"simStepLabel": "Deploy to AWS via CloudFormation",
+					"simStepDescription": "The `serverless deploy` command, often run in a CI/CD pipeline like GitHub Actions, uploads the deployment package to an S3 bucket. It then creates or updates an AWS CloudFormation stack, which provisions the 'hello' Lambda function according to the specifications in the template.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": ".github/workflows/main.yml",
+						"startLine": "1",
+						"endLine": "25",
+						"relevantVariables": [
+							"serverless deploy"
+						]
+					},
+					"inputDataExample": "{\"cliCommand\": \"serverless deploy --stage dev --region us-west-1\"}",
+					"outputDataExample": "{\"status\": \"Deployment Successful\", \"service\": \"basic-serverless-lambda\", \"functionName\": \"basic-serverless-lambda-dev-hello\"}"
+				}
+			],
+			"description": "<ul><li>The primary use case is to define and deploy a single, event-driven function on AWS Lambda</li><li>The <code>serverless</li><li>yml</code> file configures a function named 'hello' which is mapped to the <code>generateRandomNumber</code> method in <code>src/handler</li><li>js</code></li><li>This demonstrates the core value of serverless architecture: running code without provisioning or managing servers</li></ul>",
+			"simulationNodesAndEdges": {
+				"e44c8697-6df5-468f-8412-f8d05e26bbb9": {
+					"simStepIds": [
+						"9ebf4db5-aabd-4d3e-b5e3-f72873bf00c0"
+					]
+				},
+				"f8a8031b-a020-4346-b63a-6e264293a32f": {
+					"simStepIds": [
+						"66396f61-d7b2-46e1-be72-84561c37a348"
+					]
+				},
+				"9fb7581a-9e16-4f3a-9d5a-27379c9ee2f5": {
+					"simStepIds": [
+						"33bd3a53-e2c0-4201-9731-d23579c5c2f3"
+					]
+				},
+				"55e29172-4e22-4b98-9e31-262ff35125fd": {
+					"simStepIds": [
+						"1d66d1da-06e4-4e9f-b9ef-be7c769c2187"
+					]
+				},
+				"a8edb2e7-9788-47b3-b4ba-c22b90a404bc": {
+					"simStepIds": [
+						"ea0a12fa-4264-41c1-8873-cbd40cd95051"
+					]
+				}
+			},
+			"isAIGenerated": true,
+			"keywords": "handler, functions, serverless.yml",
+			"generationPrompt": "Deploy a Serverless API Endpoint on AWS Lambda",
+			"generationKeywords": "handler, functions, serverless.yml"
+		},
+		"Automate Cloud Deployments with a CI/CD Pipeline": {
+			"name": "Automate Cloud Deployments with a CI/CD Pipeline",
+			"simSteps": [
+				{
+					"simStepId": "bc2b3a76-f2a7-4680-95c1-1ea05c4a4d04",
+					"diagramNodeId": "7c2c2af8-f4f3-49e1-84b3-4c2388f18d5a",
+					"simStepLabel": "CI/CD Flow: Workflow Triggered by Push to Main Branch",
+					"simStepDescription": "The CI/CD pipeline is automatically initiated when a `git push` event occurs on the `main` branch of the GitHub repository. This is the starting point of the automated deployment process.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": ".github/workflows/main.yml",
+						"startLine": "4",
+						"endLine": "6",
+						"relevantVariables": [
+							"on",
+							"push",
+							"branches"
+						]
+					},
+					"inputDataExample": "{\n  \"ref\": \"refs/heads/main\",\n  \"before\": \"a8e47087e5b22b6d68b753a32f413009919d3652\",\n  \"after\": \"b9c6f24d8b9d3b7e6f8a0d2c3e4f5a6b7c8d9e0f\",\n  \"repository\": {\n    \"full_name\": \"PerfAI-Inc/PingLambda\"\n  },\n  \"pusher\": {\n    \"name\": \"github_user\",\n    \"email\": \"user@example.com\"\n  }\n}",
+					"outputDataExample": "{\n  \"trigger_event\": \"push\",\n  \"branch\": \"main\",\n  \"job_to_run\": \"deploy\"\n}"
+				},
+				{
+					"simStepId": "1c32a872-5f46-4230-8302-28c42104482c",
+					"diagramNodeId": "3b3935f8-d71f-4ccd-91c2-237a6bb5df37",
+					"simStepLabel": "CI/CD Flow: Event Data to Deploy Job",
+					"simStepDescription": "The push event data is passed to the 'deploy' job, which is defined in the workflow. This signals GitHub Actions to provision a runner and start the job execution.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": ".github/workflows/main.yml",
+						"startLine": "8",
+						"endLine": "9",
+						"relevantVariables": [
+							"jobs",
+							"deploy"
+						]
+					},
+					"inputDataExample": "{\n  \"trigger_event\": \"push\",\n  \"branch\": \"main\",\n  \"job_to_run\": \"deploy\"\n}",
+					"outputDataExample": "{\n  \"trigger_event\": \"push\",\n  \"branch\": \"main\",\n  \"job_to_run\": \"deploy\"\n}"
+				},
+				{
+					"simStepId": "800e3d2f-a911-470f-b763-87b657cfe45f",
+					"diagramNodeId": "7ab273b9-870d-4108-8f62-b9b72ce62fff",
+					"simStepLabel": "CI/CD Flow: Setup Node.js Environment",
+					"simStepDescription": "The 'deploy' job begins execution on an Ubuntu runner. The first step within the job is to use the `actions/setup-node` action to install and configure the specified Node.js version (18.x) required for the deployment.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": ".github/workflows/main.yml",
+						"startLine": "19",
+						"endLine": "22",
+						"relevantVariables": [
+							"uses: actions/setup-node@v1",
+							"matrix.node-version"
+						]
+					},
+					"inputDataExample": "{\n  \"runner\": \"ubuntu-latest\",\n  \"node-version-matrix\": \"18.x\"\n}",
+					"outputDataExample": "{\n  \"node_version_installed\": \"18.x\",\n  \"environment_ready\": true\n}"
+				},
+				{
+					"simStepId": "7af03874-6033-4f46-91eb-22d13a79bc3a",
+					"diagramNodeId": "8262121a-6964-4479-ab5f-fffad831d811",
+					"simStepLabel": "CI/CD Flow: Pass AWS Credentials to Serverless Action",
+					"simStepDescription": "With the environment set up, the workflow passes the necessary AWS credentials, stored as GitHub secrets, as environment variables to the next step, the Serverless Framework GitHub Action.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": ".github/workflows/main.yml",
+						"startLine": "27",
+						"endLine": "30",
+						"relevantVariables": [
+							"env",
+							"AWS_ACCESS_KEY_ID",
+							"secrets.AWS_ACCESS_KEY_ID"
+						]
+					},
+					"inputDataExample": "{\n  \"secrets_context_available\": true\n}",
+					"outputDataExample": "{\n  \"AWS_ACCESS_KEY_ID\": \"[redacted]\",\n  \"AWS_SECRET_ACCESS_KEY\": \"[redacted]\"\n}"
+				},
+				{
+					"simStepId": "86dab1f7-5101-466e-b243-51c8f9d23505",
+					"diagramNodeId": "74573102-d310-4288-b4e7-47484433a39a",
+					"simStepLabel": "CI/CD Flow: Execute Serverless Deploy",
+					"simStepDescription": "The `serverless/github-action` is executed with the `deploy` argument. This action uses the provided AWS credentials to authenticate with AWS, then packages the Lambda function defined in `serverless.yml` and `src/handler.js`, and deploys it to the AWS account.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": ".github/workflows/main.yml",
+						"startLine": "24",
+						"endLine": "30",
+						"relevantVariables": [
+							"uses: serverless/github-action@master",
+							"args: deploy",
+							"env"
+						]
+					},
+					"inputDataExample": "{\n  \"action_name\": \"serverless/github-action@master\",\n  \"args\": \"deploy\",\n  \"env\": {\n    \"AWS_ACCESS_KEY_ID\": \"[redacted]\",\n    \"AWS_SECRET_ACCESS_KEY\": \"[redacted]\"\n  }\n}",
+					"outputDataExample": "{\n  \"status\": \"Deployment Successful\",\n  \"service\": \"ping-lambda\",\n  \"stage\": \"dev\",\n  \"region\": \"us-east-1\",\n  \"deployed_functions\": [\n    \"ping\"\n  ]\n}"
+				}
+			],
+			"description": "<ul><li>The repository is configured with a GitHub Actions workflow (<code></li><li>github/workflows/main</li><li>yml</code>)</li><li>This workflow automatically triggers on every push to the 'main' branch</li><li>It uses the Serverless Framework's GitHub Action to deploy the service to AWS, showcasing a complete CI/CD pipeline for serverless applications</li></ul>",
+			"simulationNodesAndEdges": {
+				"7c2c2af8-f4f3-49e1-84b3-4c2388f18d5a": {
+					"simStepIds": [
+						"bc2b3a76-f2a7-4680-95c1-1ea05c4a4d04"
+					]
+				},
+				"7ab273b9-870d-4108-8f62-b9b72ce62fff": {
+					"simStepIds": [
+						"800e3d2f-a911-470f-b763-87b657cfe45f"
+					]
+				},
+				"74573102-d310-4288-b4e7-47484433a39a": {
+					"simStepIds": [
+						"86dab1f7-5101-466e-b243-51c8f9d23505"
+					]
+				},
+				"3b3935f8-d71f-4ccd-91c2-237a6bb5df37": {
+					"simStepIds": [
+						"1c32a872-5f46-4230-8302-28c42104482c"
+					]
+				},
+				"8262121a-6964-4479-ab5f-fffad831d811": {
+					"simStepIds": [
+						"7af03874-6033-4f46-91eb-22d13a79bc3a"
+					]
+				}
+			},
+			"isAIGenerated": true,
+			"keywords": "github-action, deploy, main.yml",
+			"generationPrompt": "Automate Cloud Deployments with a CI/CD Pipeline",
+			"generationKeywords": "github-action, deploy, main.yml"
+		},
+		"Manage Cloud Infrastructure as Code (IaC)": {
+			"name": "Manage Cloud Infrastructure as Code (IaC)",
+			"simSteps": [
+				{
+					"simStepId": "6cad9a92-5b9e-497b-b2fd-0e41a95663e4",
+					"diagramNodeId": "c52e184a-e869-4e4d-b1ad-2c5316e64aeb",
+					"simStepLabel": "IaC Flow: Service Definition",
+					"simStepDescription": "The Infrastructure as Code (IaC) process begins with the `serverless.yml` file. The top-level `service` key defines the application's name, which the Serverless Framework uses to group all related cloud resources into a single stack.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "serverless.yml",
+						"startLine": "1",
+						"endLine": "2",
+						"relevantVariables": [
+							"service"
+						]
+					},
+					"inputDataExample": "{\n  \"action\": \"deploy\",\n  \"configFile\": \"serverless.yml\"\n}",
+					"outputDataExample": "{\n  \"serviceName\": \"basic-serverless-lambda\"\n}"
+				},
+				{
+					"simStepId": "e3665015-1825-4188-bae8-4655579b0ec0",
+					"diagramNodeId": "d7541a70-1c97-4b76-acd3-749c3aec5b0a",
+					"simStepLabel": "IaC Flow: Service to Provider Configuration",
+					"simStepDescription": "The service definition context is passed to the `provider` configuration block to define global settings for the service.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "serverless.yml",
+						"startLine": "3",
+						"endLine": "3",
+						"relevantVariables": [
+							"provider"
+						]
+					},
+					"inputDataExample": "{\n  \"serviceName\": \"basic-serverless-lambda\"\n}",
+					"outputDataExample": "{\n  \"serviceName\": \"basic-serverless-lambda\"\n}"
+				},
+				{
+					"simStepId": "66cc21ed-40a2-4381-ba4e-e92178c1fe47",
+					"diagramNodeId": "03418c8b-1ff2-4962-9aa0-b1c81b16d08a",
+					"simStepLabel": "IaC Flow: Provider Configuration",
+					"simStepDescription": "The `provider` block specifies the cloud platform and default settings. It configures the service to use Amazon Web Services (AWS) with a Node.js 18.x runtime, deploying to the `dev` stage in the `us-west-1` region. These settings apply to all functions within the service unless overridden.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "serverless.yml",
+						"startLine": "4",
+						"endLine": "7",
+						"relevantVariables": [
+							"name",
+							"runtime",
+							"stage",
+							"region"
+						]
+					},
+					"inputDataExample": "{\n  \"serviceName\": \"basic-serverless-lambda\"\n}",
+					"outputDataExample": "{\n  \"providerConfig\": {\n    \"name\": \"aws\",\n    \"runtime\": \"nodejs18.x\",\n    \"stage\": \"dev\",\n    \"region\": \"us-west-1\"\n  }\n}"
+				},
+				{
+					"simStepId": "245f988a-5eba-4cfa-8074-a2a7a7e28dc3",
+					"diagramNodeId": "82862d97-35f6-48dd-a2c7-95540f7f8b93",
+					"simStepLabel": "IaC Flow: Provider to Function Configuration",
+					"simStepDescription": "The global provider configuration is passed down to the `functions` block, serving as the default environment for all defined functions.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "serverless.yml",
+						"startLine": "9",
+						"endLine": "9",
+						"relevantVariables": [
+							"functions"
+						]
+					},
+					"inputDataExample": "{\n  \"providerConfig\": {\n    \"name\": \"aws\",\n    \"runtime\": \"nodejs18.x\",\n    \"stage\": \"dev\",\n    \"region\": \"us-west-1\"\n  }\n}",
+					"outputDataExample": "{\n  \"providerConfig\": {\n    \"name\": \"aws\",\n    \"runtime\": \"nodejs18.x\",\n    \"stage\": \"dev\",\n    \"region\": \"us-west-1\"\n  }\n}"
+				},
+				{
+					"simStepId": "1e9bf09e-c953-4050-999d-6942e061e873",
+					"diagramNodeId": "71bbfc48-660c-4560-bfe0-dbdc38291064",
+					"simStepLabel": "IaC Flow: Function Definition",
+					"simStepDescription": "A specific cloud function, named `hello`, is defined. This block specifies the function's properties, including the `handler` which points to the code to be executed (`src/handler.generateRandomNumber`), a `timeout` of 60 seconds, and a `memorySize` of 128 MB. This declarative configuration is used to provision an AWS Lambda resource.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "serverless.yml",
+						"startLine": "10",
+						"endLine": "13",
+						"relevantVariables": [
+							"hello",
+							"handler",
+							"timeout",
+							"memorySize"
+						]
+					},
+					"inputDataExample": "{\n  \"providerConfig\": {\n    \"name\": \"aws\",\n    \"runtime\": \"nodejs18.x\"\n  }\n}",
+					"outputDataExample": "{\n  \"functionName\": \"hello\",\n  \"functionConfig\": {\n    \"handler\": \"src/handler.generateRandomNumber\",\n    \"timeout\": 60,\n    \"memorySize\": 128\n  }\n}"
+				},
+				{
+					"simStepId": "e7c093c5-c9e4-47d2-8942-616b888ba71d",
+					"diagramNodeId": "406f34bd-2c36-463c-bc10-7839ad959e0e",
+					"simStepLabel": "IaC Flow: Linking Configuration to Code",
+					"simStepDescription": "The `handler` property value (`src/handler.generateRandomNumber`) creates a direct link between the cloud resource configuration and the application code. It instructs the Serverless Framework and AWS where to find the specific exported function to execute.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "serverless.yml",
+						"startLine": "11",
+						"endLine": "11",
+						"relevantVariables": [
+							"handler"
+						]
+					},
+					"inputDataExample": "{\n  \"handlerPath\": \"src/handler.generateRandomNumber\"\n}",
+					"outputDataExample": "{\n  \"handlerPath\": \"src/handler.generateRandomNumber\"\n}"
+				},
+				{
+					"simStepId": "2c68f18b-5ad8-4527-882d-9392bd315bb8",
+					"diagramNodeId": "95763276-55b7-4fa3-957b-573450aa569d",
+					"simStepLabel": "IaC Flow: Target Application Code",
+					"simStepDescription": "The `handler` path resolves to the `generateRandomNumber` function exported from the `src/handler.js` file. This file contains the application logic that will be packaged and deployed to AWS Lambda, ready to be executed when the `hello` function is invoked.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "src/handler.js",
+						"startLine": "1",
+						"endLine": "1",
+						"relevantVariables": [
+							"generateRandomNumber"
+						]
+					},
+					"inputDataExample": "{\n  \"handlerPath\": \"src/handler.generateRandomNumber\"\n}",
+					"outputDataExample": "{\n  \"status\": \"Code located and ready for packaging and deployment.\"\n}"
+				}
+			],
+			"description": "<ul><li>The <code>serverless</li><li>yml</code> file serves as the single source of truth for the application's cloud infrastructure</li><li>It declaratively defines the service name, cloud provider (AWS), runtime (Node</li><li>js), region, and specific function configurations like memory and timeout</li><li>This IaC approach allows for version-controlled, repeatable, and transparent infrastructure management</li></ul>",
+			"simulationNodesAndEdges": {
+				"c52e184a-e869-4e4d-b1ad-2c5316e64aeb": {
+					"simStepIds": [
+						"6cad9a92-5b9e-497b-b2fd-0e41a95663e4"
+					]
+				},
+				"03418c8b-1ff2-4962-9aa0-b1c81b16d08a": {
+					"simStepIds": [
+						"66cc21ed-40a2-4381-ba4e-e92178c1fe47"
+					]
+				},
+				"71bbfc48-660c-4560-bfe0-dbdc38291064": {
+					"simStepIds": [
+						"1e9bf09e-c953-4050-999d-6942e061e873"
+					]
+				},
+				"95763276-55b7-4fa3-957b-573450aa569d": {
+					"simStepIds": [
+						"2c68f18b-5ad8-4527-882d-9392bd315bb8"
+					]
+				},
+				"d7541a70-1c97-4b76-acd3-749c3aec5b0a": {
+					"simStepIds": [
+						"e3665015-1825-4188-bae8-4655579b0ec0"
+					]
+				},
+				"82862d97-35f6-48dd-a2c7-95540f7f8b93": {
+					"simStepIds": [
+						"245f988a-5eba-4cfa-8074-a2a7a7e28dc3"
+					]
+				},
+				"406f34bd-2c36-463c-bc10-7839ad959e0e": {
+					"simStepIds": [
+						"e7c093c5-c9e4-47d2-8942-616b888ba71d"
+					]
+				}
+			},
+			"isAIGenerated": true,
+			"keywords": "provider, service, functions",
+			"generationPrompt": "Manage Cloud Infrastructure as Code (IaC)",
+			"generationKeywords": "provider, service, functions"
+		},
+		"Provide a Random Number Generation Microservice": {
+			"name": "Provide a Random Number Generation Microservice",
+			"simSteps": [],
+			"description": "<ul><li>From a functional perspective, the application's sole feature is to act as a microservice that generates a random integer between 0 and 99</li><li>The logic is contained within the <code>generateRandomNumber</code> function in <code>src/handler</li><li>js</code></li><li>While simple, it exemplifies the microservice pattern of a small, independent service performing one specific task</li></ul>",
+			"simulationNodesAndEdges": {},
+			"isAIGenerated": true,
+			"keywords": "generateRandomNumber, Math.random, handler.js",
+			"generationPrompt": "Provide a Random Number Generation Microservice",
+			"generationKeywords": "generateRandomNumber, Math.random, handler.js"
+		},
+		"Monitor Function Execution via Standard Logging": {
+			"name": "Monitor Function Execution via Standard Logging",
+			"simSteps": [],
+			"description": "<ul><li>The handler function includes a <code>console</li><li>log</code> statement to output the generated random number</li><li>In an AWS Lambda environment, this output is automatically ingested by Amazon CloudWatch Logs</li><li>This provides a fundamental mechanism for monitoring function invocations, viewing output, and debugging potential issues in a live environment</li></ul>",
+			"simulationNodesAndEdges": {},
+			"isAIGenerated": true,
+			"keywords": "console.log, handler.js, CloudWatch",
+			"generationPrompt": "Monitor Function Execution via Standard Logging",
+			"generationKeywords": "console.log, handler.js, CloudWatch"
+		}
+	},
+	"cellToPath": {
+		"877df854-419a-4781-81d8-ca4ab321d7ee": "serverless.yml",
+		"7901d977-c186-40ca-a797-988ae450ae1d": "src",
+		"d133d8f1-1b38-41f8-8546-1ff69a2789b2": ".github",
+		"65eb451b-548d-4f6c-944e-cc9b8edabf3a": "src/handler.js",
+		"79f08672-c39f-4773-ab30-4426061858ad": ".github/workflows",
+		"b56b3080-88ac-4fc9-84f4-98fbd89acf34": ".github/workflows/main.yml",
+		"e44c8697-6df5-468f-8412-f8d05e26bbb9": "serverless.yml-simstep-9ebf4db5-aabd-4d3e-b5e3-f72873bf00c0",
+		"f8a8031b-a020-4346-b63a-6e264293a32f": "src/handler.js-simstep-66396f61-d7b2-46e1-be72-84561c37a348",
+		"9fb7581a-9e16-4f3a-9d5a-27379c9ee2f5": ".github/workflows/main.yml-simstep-33bd3a53-e2c0-4201-9731-d23579c5c2f3",
+		"55e29172-4e22-4b98-9e31-262ff35125fd": "generated-edge-simstep-1d66d1da-06e4-4e9f-b9ef-be7c769c2187-55e29172-4e22-4b98-9e31-262ff35125fd",
+		"a8edb2e7-9788-47b3-b4ba-c22b90a404bc": "generated-edge-simstep-ea0a12fa-4264-41c1-8873-cbd40cd95051-a8edb2e7-9788-47b3-b4ba-c22b90a404bc",
+		"7c2c2af8-f4f3-49e1-84b3-4c2388f18d5a": ".github/workflows/main.yml-simstep-bc2b3a76-f2a7-4680-95c1-1ea05c4a4d04",
+		"7ab273b9-870d-4108-8f62-b9b72ce62fff": ".github/workflows/main.yml-simstep-800e3d2f-a911-470f-b763-87b657cfe45f",
+		"74573102-d310-4288-b4e7-47484433a39a": ".github/workflows/main.yml-simstep-86dab1f7-5101-466e-b243-51c8f9d23505",
+		"3b3935f8-d71f-4ccd-91c2-237a6bb5df37": "generated-edge-simstep-1c32a872-5f46-4230-8302-28c42104482c-3b3935f8-d71f-4ccd-91c2-237a6bb5df37",
+		"8262121a-6964-4479-ab5f-fffad831d811": "generated-edge-simstep-7af03874-6033-4f46-91eb-22d13a79bc3a-8262121a-6964-4479-ab5f-fffad831d811",
+		"c52e184a-e869-4e4d-b1ad-2c5316e64aeb": "serverless.yml-simstep-6cad9a92-5b9e-497b-b2fd-0e41a95663e4",
+		"03418c8b-1ff2-4962-9aa0-b1c81b16d08a": "serverless.yml-simstep-66cc21ed-40a2-4381-ba4e-e92178c1fe47",
+		"71bbfc48-660c-4560-bfe0-dbdc38291064": "serverless.yml-simstep-1e9bf09e-c953-4050-999d-6942e061e873",
+		"95763276-55b7-4fa3-957b-573450aa569d": "src/handler.js-simstep-2c68f18b-5ad8-4527-882d-9392bd315bb8",
+		"d7541a70-1c97-4b76-acd3-749c3aec5b0a": "generated-edge-simstep-e3665015-1825-4188-bae8-4655579b0ec0-d7541a70-1c97-4b76-acd3-749c3aec5b0a",
+		"82862d97-35f6-48dd-a2c7-95540f7f8b93": "generated-edge-simstep-245f988a-5eba-4cfa-8074-a2a7a7e28dc3-82862d97-35f6-48dd-a2c7-95540f7f8b93",
+		"406f34bd-2c36-463c-bc10-7839ad959e0e": "generated-edge-simstep-e7c093c5-c9e4-47d2-8942-616b888ba71d-406f34bd-2c36-463c-bc10-7839ad959e0e"
+	}
+}
